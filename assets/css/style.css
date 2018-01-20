@@ -1,12 +1,12 @@
 body{
-    background: beige
+    background: #F3ECE0;
 }
 
 #header{
     padding: 10px;
     font-family: 'Allura', cursive;
     font-size: 50px;
-    color: rgb(31, 31, 31);
+    color: #63666A;
     text-align: center;
 }
 
@@ -14,7 +14,7 @@ h1{
     padding: 10px;
     font-family: 'Allura', cursive;
     font-size: 40px;
-    color: rgb(31, 31, 31);
+    color: #63666A;
     text-align: center;
 }
 
@@ -22,11 +22,16 @@ p{
     padding: 10px;
     font-family: 'Allura', cursive;
     font-size: 30px;
-    color: rgb(31, 31, 31);
+    color: #63666A;
     text-align: center;
 }
 
 #imgCenter{
-    margin: auto;
-    width: 60%;
+    margin: 0 auto;
+    text-align: center;
 }
+
+img{
+    width: 400px;
+}
+

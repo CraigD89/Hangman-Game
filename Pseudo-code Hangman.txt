@@ -16,8 +16,7 @@ LAYOUT + LOGIC
 		- Image of the game's current word
 			- Logic: Pull random number (word) from an array and link image to word
 	- Right column X
-		- "Press any key to get started!"
-			- Logic: user presses a key to begin the game - addEventListener
+		- "Press any key to get started!"X
 		- "# of wins"
 			- Logic: calculate number of words guessed correctly
 		- "Current word"
