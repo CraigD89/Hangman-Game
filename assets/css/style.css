@@ -1,0 +1,32 @@
+body{
+    background: beige
+}
+
+#header{
+    padding: 10px;
+    font-family: 'Allura', cursive;
+    font-size: 50px;
+    color: rgb(31, 31, 31);
+    text-align: center;
+}
+
+h1{
+    padding: 10px;
+    font-family: 'Allura', cursive;
+    font-size: 40px;
+    color: rgb(31, 31, 31);
+    text-align: center;
+}
+
+p{
+    padding: 10px;
+    font-family: 'Allura', cursive;
+    font-size: 30px;
+    color: rgb(31, 31, 31);
+    text-align: center;
+}
+
+#imgCenter{
+    margin: auto;
+    width: 60%;
+}
