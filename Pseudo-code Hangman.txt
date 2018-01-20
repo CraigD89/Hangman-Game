@@ -1,27 +1,31 @@
 Pseudo-code for Hangman Game
 
+X = completed
+
 HTML/CSS
 - Create aesthetic for the page
 	- Classical art theme
 - Central graphics for game
 
-LAYOUT
-- Wrapper for layout
-- Header with game title
-	- Renaissance font
-	- Or create a graphic
+LAYOUT + LOGIC
+- Wrapper for layout X
+- Header with game title X
+	- Renaissance font X 
 - Two columns for game layout
-	- Left column
+	- Left column X
 		- Image of the game's current word
-	- Right column
+			- Logic: Pull random number (word) from an array and link image to word
+	- Right column X
 		- "Press any key to get started!"
+			- Logic: user presses a key to begin the game - addEventListener
 		- "# of wins"
+			- Logic: calculate number of words guessed correctly
 		- "Current word"
-		- _ _ _ _ _ _
+			- Logic: Pull random number (word) from an array
 		- "Number of guesses remaining"
-		- <display remaining guesses>
+			- Logic: calculate number of incorrect guesses and subtract from 10
 		- "Letters guessed"
-		- <display letters already guessed>
+			- Logic: if user guesses an incorrect letter, display that letter here
 
 
 
@@ -30,7 +34,7 @@ Word topic
 - Art terms
 
 Create an array of words
-- 15 different words
+- 7 different words of art movements
 
 Script that chooses a random number for the array when the user starts the game
 - Press Space
