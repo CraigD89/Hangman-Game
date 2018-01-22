@@ -1,5 +1,5 @@
 body{
-    background: #F3ECE0;
+    background: #fdecd3;
 }
 
 #header{
@@ -35,3 +35,10 @@ img{
     width: 400px;
 }
 
+#wordDisplay{
+    padding: 10px;
+    font-family: 'Allura', cursive;
+    font-size: 30px;
+    color: #63666A;
+    text-align: center;
+}
