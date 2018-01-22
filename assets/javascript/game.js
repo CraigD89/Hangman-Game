@@ -15,3 +15,9 @@ var alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m",
 var artWords = ["abstract", "cubism", "deco", "impressionism", "nouveau", "pop", "surrealism"];
 
 var guessRemaining = 9;
+
+// Generate random word
+
+var currentWord = artWords[Math.floor(Math.random() * artWords.length)];
+var wordDisplay = document.querySelector("#wordDisplay");
+wordDisplay.innerHTML = currentWord;

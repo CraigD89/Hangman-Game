@@ -12,10 +12,10 @@ LAYOUT + LOGIC
 - Header with game title X
 	- Renaissance font X 
 - Two columns for game layout
-	- Left column X
+	- Left column
 		- Image of the game's current word
 			- Logic: Pull random number (word) from an array and link image to word
-	- Right column X
+	- Right column
 		- "Press any key to get started!"X
 		- "# of wins"
 			- Logic: calculate number of words guessed correctly
