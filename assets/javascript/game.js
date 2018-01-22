@@ -26,6 +26,7 @@ guessRemaining.innerHTML = 9;
 var currentWord = artWords[Math.floor(Math.random() * artWords.length)];
 var wordDisplay = document.querySelector("#wordDisplay");
 wordDisplay.innerHTML = currentWord;
+console.log("Current word is", currentWord);
 
 //Display letters guessed
 var letterGuessed = document.querySelector("#letterGuessed");
