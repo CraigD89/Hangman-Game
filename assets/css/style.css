@@ -35,8 +35,28 @@ img{
     width: 400px;
 }
 
+#numWins{
+    font-family: 'Allura', cursive;
+    font-size: 30px;
+    color: #63666A;
+    text-align: center;
+}
+
 #wordDisplay{
-    padding: 10px;
+    font-family: 'Allura', cursive;
+    font-size: 30px;
+    color: #63666A;
+    text-align: center;
+}
+
+#guessRemaining{
+    font-family: 'Allura', cursive;
+    font-size: 30px;
+    color: #63666A;
+    text-align: center;
+}
+
+#letterGuessed{
     font-family: 'Allura', cursive;
     font-size: 30px;
     color: #63666A;
