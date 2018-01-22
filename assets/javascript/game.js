@@ -14,10 +14,21 @@ var alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m",
 
 var artWords = ["abstract", "cubism", "deco", "impressionism", "nouveau", "pop", "surrealism"];
 
-var guessRemaining = 9;
+//Number of wins
+var numWins = document.querySelector("#numWins");
+numWins.innerHTML = 0
 
-// Generate random word
+//Display guesses remaining
+var guessRemaining = document.querySelector("#guessRemaining");
+guessRemaining.innerHTML = 9;
 
+//Generate random word
 var currentWord = artWords[Math.floor(Math.random() * artWords.length)];
 var wordDisplay = document.querySelector("#wordDisplay");
 wordDisplay.innerHTML = currentWord;
+
+//Display letters guessed
+var letterGuessed = document.querySelector("#letterGuessed");
+letterGuessed.innerHTML = "_ _ _ _ _ _";
+
+
