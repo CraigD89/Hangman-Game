@@ -16,16 +16,22 @@ var artWords = ["abstract", "cubism", "deco", "impressionism", "nouveau", "pop",
 //Number of wins
 var numWins = document.querySelector("#numWins");
 numWins.innerHTML = 0
+console.log("Number of wins", numWins);
 
 //Display guesses remaining
 var guessRemaining = document.querySelector("#guessRemaining");
 guessRemaining.innerHTML = 9;
+console.log("Remaning guesses", guessRemaining);
 
-//Generate random word
-var currentWord = artWords[Math.floor(Math.random() * artWords.length)];
-var wordDisplay = document.querySelector("#wordDisplay");
-wordDisplay.innerHTML = currentWord;
-// console.log("Current word is", currentWord);
+//Generate random word and split into characters
+var artWord = artWords[Math.floor(Math.random() * artWords.length)];
+var textArray = [];
+for (var i = 0; i < artWord.length; i++) {
+    textArray[i] = "_";
+  }
+console.log("Chosen word is", textArray);
+// document.querySelector("#textArray");
+
 
 //Display letters guessed (correct or incorrect)
 var letterGuessed = document.querySelector("#letterGuessed");

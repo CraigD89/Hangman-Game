@@ -1,5 +1,11 @@
 body{
     background: #fdecd3;
+    padding: 10px;
+    font-family: 'Allura', cursive;
+    font-size: 50px;
+    color: #63666A;
+    text-align: center;
+
 }
 
 #header{
@@ -42,9 +48,10 @@ img{
     text-align: center;
 }
 
-#wordDisplay{
+#textArray{
     margin: 0 auto;
     width: 50%;
+    height: 50px;
     font-family: 'Allura', cursive;
     font-size: 30px;
     color: #63666A;
@@ -59,32 +66,35 @@ img{
     text-align: center;
 }
 
-#letterGuessed{
-    margin: 0 auto;
-    width: 50%;
-    font-family: 'Allura', cursive;
-    font-size: 30px;
-    color: #63666A;
-    text-align: center;
-    border-style: solid;
-}
-
-#lettersMatched{
-    margin: 0 auto;
-    width: 50%;
-    font-family: 'Allura', cursive;
-    font-size: 30px;
-    color: #63666A;
-    text-align: center;
-    border-style: solid;
-}
-
 #lettersIncorrect{
     margin: 0 auto;
     width: 50%;
+    height: 50px;
     font-family: 'Allura', cursive;
     font-size: 30px;
     color: #63666A;
     text-align: center;
     border-style: solid;
 }
+
+/* #letterGuessed{
+    margin: 0 auto;
+    width: 50%;
+    height: 50px;
+    font-family: 'Allura', cursive;
+    font-size: 30px;
+    color: #63666A;
+    text-align: center;
+    border-style: solid;
+} */
+
+/* #lettersMatched{
+    margin: 0 auto;
+    width: 50%;
+    font-family: 'Allura', cursive;
+    font-size: 30px;
+    color: #63666A;
+    text-align: center;
+    border-style: solid;
+} */
+
