@@ -47,3 +47,24 @@ User inputs a letter
 			- Display guessed letter under "letters used"
 
 User guesses again
+
+
+JAVASCRIPT ORDER !!!
+
+- variable for Letters
+- variable for words
+
+- randomly generated word
+- answerArray for each letter
+	- for (var i = 0; i < word.length; i++)
+- letters correct
+- letters incorrect
+
+User guess
+- addEventListener for input letter from user
+
+Loop
+- if user's guess is true - display correct letter on screen
+- else user's guess is incorrect - display incorrect letter on screen and lose one guessed
+
+- if user guesses correctly - add 1 to win streak
