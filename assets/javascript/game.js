@@ -11,7 +11,6 @@
 // Number of wins - if user completes a word before remaining guesses hits zero - add 1 from 0
 
 var alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
-
 var artWords = ["abstract", "cubism", "deco", "impressionism", "nouveau", "pop", "surrealism"];
 
 //Number of wins
@@ -26,9 +25,27 @@ guessRemaining.innerHTML = 9;
 var currentWord = artWords[Math.floor(Math.random() * artWords.length)];
 var wordDisplay = document.querySelector("#wordDisplay");
 wordDisplay.innerHTML = currentWord;
+// console.log("Current word is", currentWord);
 
-//Display letters guessed
+//Display letters guessed (correct or incorrect)
 var letterGuessed = document.querySelector("#letterGuessed");
-letterGuessed.innerHTML = "_ _ _ _ _ _";
+// var lettersMatched = document.querySelector("#lettersMatched");
+// var lettersIncorrect = document.querySelector("#lettersIncorrect");
+// letterMatched.innerHTML = "_ _ _ _ _ _";
+// letterIncorrect.innerHTML = "_ _ _ _ _ _";
 
 
+//User's guess
+// var userGuess = keyup
+// document.addEventListener("keyup", userGuess);
+// if (userGuess === chosenLetter){
+//     alphabet.push("");
+// }
+// else{
+//     alphabet.push("")
+// }
+
+
+
+// var keyup = function(){
+// }

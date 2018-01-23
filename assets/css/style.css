@@ -43,10 +43,13 @@ img{
 }
 
 #wordDisplay{
+    margin: 0 auto;
+    width: 50%;
     font-family: 'Allura', cursive;
     font-size: 30px;
     color: #63666A;
     text-align: center;
+    border-style: solid;
 }
 
 #guessRemaining{
@@ -57,8 +60,31 @@ img{
 }
 
 #letterGuessed{
+    margin: 0 auto;
+    width: 50%;
     font-family: 'Allura', cursive;
     font-size: 30px;
     color: #63666A;
     text-align: center;
+    border-style: solid;
+}
+
+#lettersMatched{
+    margin: 0 auto;
+    width: 50%;
+    font-family: 'Allura', cursive;
+    font-size: 30px;
+    color: #63666A;
+    text-align: center;
+    border-style: solid;
+}
+
+#lettersIncorrect{
+    margin: 0 auto;
+    width: 50%;
+    font-family: 'Allura', cursive;
+    font-size: 30px;
+    color: #63666A;
+    text-align: center;
+    border-style: solid;
 }
