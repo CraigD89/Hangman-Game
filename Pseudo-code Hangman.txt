@@ -68,3 +68,8 @@ Loop
 - else user's guess is incorrect - display incorrect letter on screen and lose one guessed
 
 - if user guesses correctly - add 1 to win streak
+
+
+
+Notes / issues
+- should have used classes to group styling elements over individual ids for everything
