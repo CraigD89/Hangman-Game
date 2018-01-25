@@ -1,5 +1,13 @@
 Pseudo-code for Hangman Game
 
+NOTES/ISSUES
+- I should have used classes to group styling elements over individual ids for everything
+- I want to find a way to link the current image to the current word's theme
+- Having issues with the order of JS
+	- Which functions go inside where for the best result?
+- Can't get key up function to work properly
+
+
 X = completed
 
 HTML/CSS
@@ -68,8 +76,3 @@ Loop
 - else user's guess is incorrect - display incorrect letter on screen and lose one guessed
 
 - if user guesses correctly - add 1 to win streak
-
-
-
-Notes / issues
-- should have used classes to group styling elements over individual ids for everything
