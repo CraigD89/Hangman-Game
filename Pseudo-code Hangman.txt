@@ -2,13 +2,15 @@ Pseudo-code for Hangman Game
 
 NOTES/ISSUES
 - I should have used classes to group styling elements over individual ids for everything
-- I want to find a way to link the current image to the current word's theme
+- I want to find a way to link the current image to the current word (when number is generated)
 - Having issues with the order of JS
 	- Which functions go inside where for the best result?
-- Can't get key up function to work properly
+- Can't get keyup function to work properly
+	- Possibly something in my JS preventing it from working
+		- Order of JS?
+- Could not get to the point of adding number to wins or reset for loss, but wrote if/else statements
 
 
-X = completed
 
 HTML/CSS
 - Create aesthetic for the page
@@ -44,8 +46,6 @@ Create an array of words
 - 7 different words of art movements
 
 Script that chooses a random number for the array when the user starts the game
-- Press Space
-- Click start button
 
 User inputs a letter
 - var for letter
@@ -54,7 +54,8 @@ User inputs a letter
 		- IF FALSE - user loses one chance
 			- Display guessed letter under "letters used"
 
-User guesses again
+User guesses again until win/loss
+
 
 
 JAVASCRIPT ORDER !!!
