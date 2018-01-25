@@ -12,9 +12,7 @@ for (var i = 0; i < artWord.length; i++) {
 textArray.innerText = artWord;
 console.log("Chosen word is", textArray);
 
-//Letter placement
-
-//keyup function
+//User keyup function
 window.addEventListener("keyup", function (event) {
     var letterGuessed = function (event) {
         var userGuess = event.key;
@@ -41,14 +39,14 @@ window.addEventListener("keyup", function (event) {
         document.addEventListener("keydown", textArray);
 
     }
-})
+});
 
 
 
 // document.querySelector("#textArray");
 //Number of wins
 var numWins = document.querySelector("#numWins");
-numWins.innerHTML = 0
+numWins.innerHTML = 0;
 console.log("Number of wins", numWins);
 // var win = function () {
 //     if(userGuess){
