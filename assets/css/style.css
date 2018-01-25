@@ -10,7 +10,6 @@ body{
 
 #header{
     padding: 10px;
-    font-family: 'Allura', cursive;
     font-size: 50px;
     color: #63666A;
     text-align: center;
@@ -18,7 +17,6 @@ body{
 
 h1{
     padding: 10px;
-    font-family: 'Allura', cursive;
     font-size: 40px;
     color: #63666A;
     text-align: center;
@@ -26,7 +24,6 @@ h1{
 
 p{
     padding: 10px;
-    font-family: 'Allura', cursive;
     font-size: 30px;
     color: #63666A;
     text-align: center;
@@ -41,60 +38,24 @@ img{
     width: 400px;
 }
 
-#numWins{
-    font-family: 'Allura', cursive;
+#game{
     font-size: 30px;
-    color: #63666A;
     text-align: center;
 }
+
 
 #textArray{
     margin: 0 auto;
     width: 50%;
     height: 50px;
-    font-family: 'Allura', cursive;
     font-size: 30px;
-    color: #63666A;
-    text-align: center;
     border-style: solid;
-}
-
-#guessRemaining{
-    font-family: 'Allura', cursive;
-    font-size: 30px;
-    color: #63666A;
-    text-align: center;
 }
 
 #lettersIncorrect{
     margin: 0 auto;
     width: 50%;
     height: 50px;
-    font-family: 'Allura', cursive;
     font-size: 30px;
-    color: #63666A;
-    text-align: center;
     border-style: solid;
 }
-
-/* #letterGuessed{
-    margin: 0 auto;
-    width: 50%;
-    height: 50px;
-    font-family: 'Allura', cursive;
-    font-size: 30px;
-    color: #63666A;
-    text-align: center;
-    border-style: solid;
-} */
-
-/* #lettersMatched{
-    margin: 0 auto;
-    width: 50%;
-    font-family: 'Allura', cursive;
-    font-size: 30px;
-    color: #63666A;
-    text-align: center;
-    border-style: solid;
-} */
-
