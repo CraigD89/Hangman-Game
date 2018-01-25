@@ -1,7 +1,8 @@
 //Words and letters for game
 var alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
 var artWords = ["abstract", "cubism", "deco", "impressionism", "nouveau", "pop", "surrealism"];
-var remainingLetters = artWords.length;
+// var remainingLetters = artWords.length;
+
 
 //Generate random word and split into characters
 var artWord = artWords[Math.floor(Math.random() * artWords.length)];
@@ -11,6 +12,7 @@ for (var i = 0; i < artWord.length; i++) {
 }
 textArray.innerText = artWord;
 console.log("Chosen word is", textArray);
+
 
 //User keyup function
 window.addEventListener("keyup", function (event) {
